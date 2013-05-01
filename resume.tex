@@ -1,0 +1,275 @@
+% LaTeX resume using res.cls
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
+\setlength{\textheight}{10.5in}  % increase textheight to fit more on a page
+
+%10.5
+
+\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{12pt}   % make room for header
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+\renewcommand{\headrulewidth}{1pt} % suppress line drawn by default by fancyhdr
+
+%\lhead{\hspace*{-\sectionwidth}Ravdeep Johar} % force lhead all the way left
+\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+%\newsectionwidth{0pt}
+
+
+
+\begin{document} 
+
+\thispagestyle{empty} % this page does not have a header
+\name{\huge Ravdeep Johar}
+\address{268 East Squire Drive, \\ Rochester NY 14623  }
+%\address{ Rochester, NY 14623 }
+\address{ phone: (585) 743-0764 \\   email: rsj7209@g.rit.edu} 
+
+
+
+
+%\\email: ifn8065@g.rit.edu}
+
+
+\begin{resume}
+%\section{\rule{\linewidth}{0.1cm}}
+
+%\hrule
+\section{OBJECTIVE}
+\vspace{0.1in} 
+To obtain a Co-op/Internship position as a Software Developer, available mid-May 2013 onwards.
+
+\section{EDUCATION}
+
+%\rule {1}{1}
+\vspace{0.1in} 
+ {\bf Rochester Institue of Technology, NY \hfill} Anticipated May 2014
+       \begin{itemize}
+\setlength{\itemsep}{0pt}
+	
+        \item[] Degree: Master of Science in Computer Science
+          \item[] GPA:  3.75/4.00
+%	\item[] Major: Computer Science
+%	\item[] GPA: 8.2/10.00
+
+\end {itemize}
+
+ {\bf University Of Wisconsin-Milwaukee, WI \hfill} Graduated Fall 2011
+       \begin{itemize}	
+\setlength{\itemsep}{0pt}
+        \item[] Degree: Exchange Student - BS Computer Science
+        \item[] GPA: 3.2/4.00
+%	\item[] Major: Electronics
+\end {itemize}
+
+ {\bf SRM University, Chennai, India \hfill} Graduated June 2012
+       \begin{itemize}	
+\setlength{\itemsep}{0pt}
+        \item[] Degree: Bachelor of Engineering in  Computer Science
+        \item[] GPA:  3.5/4.00
+%	\item[] Major: Electronics
+\end {itemize}
+ 
+\section{COMPUTER SKILLS} 
+\vspace{0.1in}
+\begin{tabular}{ll}
+{\bf Languages:} & C++, Java, C, MATLAB \\
+{\bf Development Tools:} & Netbeans/Eclipse IDEs, Visual Studio, Android Development Kit\\
+{\bf Familiar with:} &  OpenCV, ROS, Objective-C, Python, XML, HTML, Ruby, PHP, Prolog, \\ 
+&  SML, C\#, Java Script, SQL\\
+{\bf Operating Systems:} &  Windows, Unix/Linux, Mac OS X\\
+
+\end{tabular}
+
+\section{RESEARCH INTERESTS} 
+\begin{multicols}{3}
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+{\item Computer Vision \item Artificial Intelligence} 
+\item Robotics \item Programming Languages  \item Cryptography 
+ \end {itemize}
+\end{multicols}
+
+
+
+
+\section{EXPERIENCE} 
+\vspace{0.1in} 
+ {\bf  Robotics Lab, RIT, Rochester, NY    \hfill }December 2012-Present 
+\\\emph{ Research Assistant, Language used: c++ } \\
+\begin{itemize}
+\vspace{-0.15in} 
+\item[] Implementing localization of robot using barcodes.
+ \end {itemize}
+
+ {\bf  Urjanet, Chennai, India    \hfill }February 2012-June 2012 
+\\\emph{ Programming Intern} \\
+\begin{itemize}
+\vspace{-0.15in} 
+\item[] Worked as a Java Software developer.
+ \end {itemize}
+
+\section{PUBLISHED RESEARCH PAPERS}
+\vspace{0.1in} 
+
+ {\bf Comparative Study and Optimization of Feature-Extraction Techniques for Content Based Image Retrieval,}
+ International Journal of Computer Applications (IJCA), ISSN: 0975-8887 (Online), Vol. 52, No. 20, pp. 35-42, Aug. 2012.  ({\bf Citations: 2})
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item Aman Chadha, Sushmit Mallik, Ravdeep Johar
+%\item Language used: C, SQL, ASP.NET ; Tools used: Visual Studio
+%\item Team strength : 3  
+ \end {itemize}
+\vspace{-0.1in} 
+ 
+
+\section{RESEARCH PROJECTS}
+\vspace{0.1in} 
+{\bf Scene Classification using hybrid image descriptor combining Local Binary Pattern and SIFT (Advanced Computer Vision, RIT)}
+\\ \emph{ Language used: Matlab and C++ }
+
+
+\pagebreak
+\vspace{-0.1in}
+{\bf Localization of Robots by Detecting Barcodes (Corobots, RIT)}
+\\ \emph{ Language used: C++ }
+
+
+\vspace{-0.1in}
+{\bf Image Processing using Cellular Automata(Independent Study, RIT)}
+\\ \emph{ Language used: Matlab }
+
+
+\vspace{-0.1in} 
+{\bf Continuous Authentication using Keyboard Biometric Features(Artificial Intelligence, RIT)}
+\\ \emph{ Language used: C\#, Python, JavaScript}
+
+\vspace{-0.1in} 
+    {\bf Detection of Moving Object using Gaussian Mixture Model(Computer Vision, RIT)  }
+\\ \emph{ Language used: Matlab }
+
+\vspace{-0.1in} 
+   {\bf Video Encryption using RSA Algorithm and Pseudo Noise Sequence(Research Project) }
+\\ \emph{ Language used: Matlab  }
+
+\vspace{-0.1in} 
+   {\bf Ant Clustering Algorithm Based on Cellular Automata (Research Project) }
+\\ \emph{ Language used: Matlab  }
+
+\vspace{-0.1in} 
+
+ {\bf Finger Arches based Authentication using Minutia method(BS Capstone, SRM)  }
+\\ \emph{ Language used: Java; Tools used: Net Beans   }
+
+
+
+\section{PROJECTS}
+\vspace{0.1in} 
+
+ {\bf Encrypt/Decrypt Text using Data Encryption Standard(Cryptography, RIT)  }
+\\ \emph{ Language used: Phython  }
+
+\vspace{-0.1in} 
+
+ {\bf 3D Solar System(Computer Graphics, UWM) }
+\\ \emph{ Language used: C++ ; Tools used: Microsoft Visual Studio  }
+
+\vspace{-0.1in} 
+
+ {\bf Android Application: Restaurant Search App(Software Enginerring, UWM) }
+\\ \emph{ Language used: Java ; Tools used: Eclipse }
+
+\vspace{-0.1in} 
+
+ {\bf Medical Diagnosis Expert Systems (Artificial Intelligence, RIT) }
+\\ \emph{ Language used: CLIPS }
+
+
+\vspace{-0.1in} 
+
+ {\bf 8 and 15 Puzzle Solver Using A* Algorithm(Artificial Intelligence, SRM) }
+\\ \emph{ Language used: Java ; Tools used: Eclipse }
+
+\vspace{-0.1in} 
+
+ {\bf Language Detection using Neural Networks(Neural Networks, RIT) }
+\\ \emph{ Language used: Matlab }
+
+\section{ACHIEVEMENTS}
+
+
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item Recipient of Graduate RIT Scholarship
+ \item Selected to attend exchange program at UWM  
+ \end {itemize}
+
+\section{LANGUAGES}
+
+
+
+\begin{itemize}
+\begin{multicols}{2}
+\setlength{\itemsep}{0pt}
+\item English (Fluent)
+ \item Hindi (Fluent)
+\item Punjabi (Fluent)
+\item Japanese (Basic)
+
+\end{multicols}
+\end {itemize}
+\section{LINKS}
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+
+  \item Github: \url{https://github.com/ravdeepjohar}
+\item LinkedIn: \url{http://www.linkedin.com/profile/view?id=241136953} 
+  \item Website: \url{http://www.cs.rit.edu/~rsj7209/}
+\end {itemize}
+
+
+
+ 
+
+ 
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
